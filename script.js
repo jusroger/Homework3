@@ -60,10 +60,10 @@ else if (confirmCharacter && confirmUppercase) {
     choices = character.concat(alphaU);
 }
 else if (confirmLowercase && confirmNumber) {
-    choices = alpha.concat(number);
+    choices = alphaL.concat(number);
 } 
 else if (confirmLowercase && confirmUppercase) {
-    choices = alpha.concat(alphaU);
+    choices = alphaU.concat(alphaL);
 } 
 else if (confirmNumber && confirmUppercase) {
     choices = number.concat(alphaU);
