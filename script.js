@@ -63,7 +63,7 @@ else if (confirmLowercase && confirmNumber) {
     choices = alphaL.concat(number);
 } 
 else if (confirmLowercase && confirmUppercase) {
-    choices = alphaU.concat(alphaL);
+    choices = alphaL.concat(alphaU);
 } 
 else if (confirmNumber && confirmUppercase) {
     choices = number.concat(alphaU);
@@ -75,7 +75,7 @@ else if (confirmCharacter) {
   choices = character;
 }
 else if (confirmLowercase) {
-    choices = alpha;
+    choices = alphaL;
 }
 else if (confirmUppercase) {
     choices = alphaU;
